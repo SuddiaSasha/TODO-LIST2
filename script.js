@@ -6,7 +6,7 @@ const errorMessageDiv = document.getElementById('error-message');
 const errorTextSpan = document.getElementById('error-text');
 
 const FIREBASE_BASE_URL = 'https://todolist-c53dd-default-rtdb.europe-west1.firebasedatabase.app/todos';
-const FIREBASE_FULL_URL = `${FIREBASE_BASE_URL}.json`; // Для POST та GET всіх todos
+const FIREBASE_FULL_URL = `${FIREBASE_BASE_URL}.json`; 
 
 let todos = []; 
 let nextId = 1;
